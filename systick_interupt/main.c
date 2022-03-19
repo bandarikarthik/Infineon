@@ -43,8 +43,7 @@ int main(void)
 
   init_systick_timer();
 
-  PWM_SetFreqAndDutyCycle(&PWM_0,2,5000);
-  PWM_Start(&PWM_0);
+
   while(1U)
   {
 
